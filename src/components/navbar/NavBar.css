@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Single+Day&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(163, 203, 255);
+    height: 70px;
+    align-items: center;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.button{
+    background-color: transparent;
+    font-size: 2rem;
+    color: rgb(36, 5, 173) ;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.button:hover{
+    background-color: rgb(163, 184, 255);
+}
+
+.logo{
+    font-size: 4rem;
+    margin-top: 10px;
+    text-decoration: none;
+    color:#180f92;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.active{
+    background-color: #0f927c;
+    color: rgb(163, 184, 255) ;
+}

@@ -1,0 +1,40 @@
+
+.form-compra{
+    color: #0f927c;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.datos-form{
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    border: solid 3px #0f927c;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.data-form{
+    width: 450px;
+    height: 40px;
+    margin: 10px auto ;
+    font-size: 1rem;
+    border: solid 2px #0f927c;
+}
+
+.boton-comprar{
+    border: solid #0f927c;
+    width: 200px;
+    height: 30px;
+    margin: auto;
+    background-color:  rgb(163, 184, 255);
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.boton-comprar:hover{
+    background-color: white;
+    border: solid 4px rgb(146, 166, 253);
+    font-weight: lighter;
+}

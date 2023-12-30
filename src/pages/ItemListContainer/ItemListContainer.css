@@ -1,0 +1,38 @@
+
+.card{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(163, 184, 255);
+    width: 350px;
+    height: 450px;
+    align-items: center;
+}
+
+
+
+.card-button:hover{
+    background-color: #a4a3ff;
+}
+
+.card-button button{
+    border: none;
+    width: 50px;
+    height: 25px;
+    background-color:transparent;
+}
+
+
+.container-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.title{
+    margin: 10px;
+}
